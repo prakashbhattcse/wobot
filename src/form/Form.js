@@ -10,7 +10,7 @@ const form = () => {
                 <div className='form-content'>
                     <div className="logo2">
                         
-                        <img src={process.env.PUBLIC_URL +"images/LOGO1.png"} alt="logo" /> 
+                        <img src= {process.env.PUBLIC_URL + '/images/LOGO1.png'}  alt="logo" /> 
                       
                     </div>
                     <div className='content'>

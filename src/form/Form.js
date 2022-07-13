@@ -9,7 +9,9 @@ const form = () => {
             <div className='form-layout'>
                 <div className='form-content'>
                     <div className="logo2">
-                        <img src={process.env.PUBLIC_URL + "images/LOGO1.png"} alt="logo" />
+                        
+                        <img src={process.env.PUBLIC_URL +"images/LOGO1.png"} alt="logo" /> 
+                      
                     </div>
                     <div className='content'>
                         <h2>It’s a delight to have you
@@ -56,7 +58,7 @@ const form = () => {
                 </div>
             </div>
             <div className='footer'>
-                <a href="">Terms of use  |  Privacy policy </a>
+                <a href="#test">Terms of use  |  Privacy policy </a>
             </div>
 
         </div>

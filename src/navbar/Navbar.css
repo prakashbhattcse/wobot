@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    padding: 0.7rem 1.5rem;
+  height: 65px;
+  /* background-color: #e5e5e5; */
+  background-color: #fff;
+}
+
+.container .logo {
+  max-width: 100%;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.container .logo a img {
+    
+ width: 12rem;
+  max-height: 60px;
+}

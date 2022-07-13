@@ -15,7 +15,7 @@ const form = () => {
                         <h2>It’s a delight to have you
                             <br />onboard</h2>
                         <p>Help us know you better.<br />
-                         (This is how we optimize Wobot as per your needs)</p>
+                            (This is how we optimize Wobot as per your needs)</p>
                     </div>
                     <form >
                         <div className="field padding-bottom--24">
@@ -52,10 +52,11 @@ const form = () => {
                         <div className="padding-bottom--24">
                             <input type="submit" name="submit" value="Get Started" />
                         </div>
-
-
                     </form>
                 </div>
+            </div>
+            <div className='footer'>
+                <a href="">Terms of use  |  Privacy policy </a>
             </div>
 
         </div>

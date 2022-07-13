@@ -23,7 +23,7 @@
   border-radius: 15px;
   background-color: white;
   position: absolute;
-  top: 5rem;
+  top: 3rem;
   box-shadow: 3px 3px 10px #cbced1, 0px 0px 0px #fff;
   display: flex;
   align-items: center;
@@ -135,6 +135,18 @@ input[type="submit"] {
 .btn-grp {
   padding-top: 7px;
   padding-bottom: 5px;
+}
+.footer {
+  position: absolute;
+  top: 95%;
+ 
+
+  font-size: 16px;
+  text-align: center;
+}
+.footer a{
+  text-decoration: none;
+  color: white;
 }
 
 @media (max-width: 799px) {
